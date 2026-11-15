@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "SkoolSync Family",
+    "slug": "skoolsync-family",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "zw.co.skoolsync.family"
+    },
+    "ios": {
+      "bundleIdentifier": "zw.co.skoolsync.family"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.env
+backend/skoolsync.db
+*.db
+
+# Node / Expo
+node_modules/
+.expo/
+dist/
+*.log
+
+# OS
+.DS_Store
