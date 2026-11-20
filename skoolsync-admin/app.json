@@ -5,11 +5,26 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "android": {
-      "package": "zw.co.skoolsync.admin"
-    },
+    "icon": "./assets/icon.png",
+"splash": {
+  "image": "./assets/icon.png",
+  "resizeMode": "contain",
+  "backgroundColor": "#ffffff"
+},
+   "android": {
+  "package": "zw.co.skoolsync.admin",
+  "adaptiveIcon": {
+    "foregroundImage": "./assets/icon.png",
+    "backgroundColor": "#ffffff"
+  }
+},
     "ios": {
       "bundleIdentifier": "zw.co.skoolsync.admin"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4d3bf53b-5a34-4f86-89a1-318c3e1b5522"
+      }
     }
   }
 }
